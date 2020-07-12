@@ -10,9 +10,109 @@
     
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="icon" href="img/logoGame.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <div class="container">
+        <header>
+            <h1>Icon Matching!</h1>
+        </header>
+
+        <section class="score-panel">
+
+          <!-- the clock element -->
+          <span class="clock">00:00</span>
+
+        	<ul class="stars">
+        		<li><i class="fas fa-star"></i></li>
+        		<li><i class="fas fa-star"></i></li>
+        		<li><i class="fas fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves">0</span> Moves
+
+            <div class="restart">
+        		<i class="fas fa-repeat"></i>
+        	</div>
+        </section>
+
+        <div class="backgroundModel hide">
+          <div class="bodyModel">
+
+            <div class="headModel">
+              <h1 class="titleModel">Stats</h1>
+              <span class="closeModel">X</span>
+            </div>
+
+            <div class="statsModel">
+              <span class="timeModel">Time =</span>
+              <span class="starsModel">Stars =</span>
+              <span class="movesModel">Moves =</span>
+            </div>
+
+            <div class="buttonsModel">
+              <button class="buttonModel cancelModel">Cancel</button>
+              <button class="buttonModel replayModel">Replay</button>
+            </div>
+
+          </div>
+        </div>
+
+        <ul class="deck">
+            <li class="card">
+              <i class="fa fa-facebook"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-github"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-google"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-medium"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-google"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-linkedin"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-facebook"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-quora"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-quora"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-linkedin"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-github"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-medium"></i>
+            </li>
+        </ul>
+    </div>
+    <footer>Made with &hearts; by Neha Singla</footer>
+
+    <script src="js/script.js"></script>
     
 </body>
 </html>
